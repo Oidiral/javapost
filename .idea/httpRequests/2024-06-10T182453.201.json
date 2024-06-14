@@ -1,0 +1,11 @@
+{
+  "id": 1,
+  "title": "SADSA",
+  "content": "ASDAS",
+  "author": {
+    "id": 1,
+    "username": "Olzhas",
+    "email": "asda@gmail.com",
+    "role": "USER"
+  }
+}

@@ -1,0 +1,681 @@
+POST http://localhost:8042/api/v1/users
+Content-Type: application/json
+Content-Length: 81
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "username": "Elzasahas",
+  "email": "asd213asa@gmail.com",
+  "role": "USER"
+}
+
+<> 2024-06-11T005951.201.json
+
+###
+
+POST http://localhost:8042/api/v1/users
+Content-Type: application/json
+Content-Length: 74
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "username": "Olzhas",
+  "email": "asdas@gmail.com",
+  "role": "USER"
+}
+
+<> 2024-06-11T005939.500.json
+
+###
+
+POST http://localhost:8042/api/v1/users
+Content-Type: application/json
+Content-Length: 74
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "username": "Olzhas",
+  "email": "asdas@gmail.com",
+  "role": "USER"
+}
+
+<> 2024-06-11T005936.201.json
+
+###
+
+POST http://localhost:8042/api/v1/users
+Content-Type: application/json
+Content-Length: 76
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "username": "Elzhas",
+  "email": "asd213a@gmail.com",
+  "role": "USER"
+}
+
+<> 2024-06-11T005933.201.json
+
+###
+
+POST http://localhost:8042/api/v1/users
+Content-Type: application/json
+Content-Length: 76
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "username": "Elzhas",
+  "email": "asd213a@gmail.com",
+  "role": "USER"
+}
+
+<> 2024-06-11T005830.201.json
+
+###
+
+POST http://localhost:8042/api/v1/users
+Content-Type: application/json
+Content-Length: 74
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "username": "Olzhas",
+  "email": "asdas@gmail.com",
+  "role": "USER"
+}
+
+<> 2024-06-11T005824.201.json
+
+###
+
+POST http://localhost:8042/posts/1
+Content-Type: application/json
+Content-Length: 75
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "title": "SADSA",
+  "content": "ASDAS",
+  "author": {
+    "id": 1
+  }
+}
+
+<> 2024-06-11T005803.500.json
+
+###
+
+POST http://localhost:8042/posts/1
+Content-Type: application/json
+Content-Length: 75
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "title": "SADSA",
+  "content": "ASDAS",
+  "author": {
+    "id": 1
+  }
+}
+
+<> 2024-06-10T182453.201.json
+
+###
+
+POST http://localhost:8042/posts/1
+Content-Type: application/json
+Content-Length: 72
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "id": 1,
+  "title": "SADSA",
+  "content": "ASDAS",
+  "author": "1"
+}
+
+<> 2024-06-10T181900.400.json
+
+###
+
+POST http://localhost:8042/posts/1
+Content-Type: application/json
+Content-Length: 72
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "id": 1,
+  "title": "SADSA",
+  "content": "ASDAS",
+  "author": "1"
+}
+
+<> 2024-06-10T181838.400.json
+
+###
+
+POST http://localhost:8042/posts/1
+Content-Type: application/json
+Content-Length: 72
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "id": 1,
+  "title": "SADSA",
+  "content": "ASDAS",
+  "author": "1"
+}
+
+<> 2024-06-10T181754.400.json
+
+###
+
+POST http://localhost:8042/api/v1/users
+Content-Type: application/json
+Content-Length: 87
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "id": 2,
+  "username": "Elzhas",
+  "email": "asd213a@gmail.com",
+  "role": "USER"
+}
+
+<> 2024-06-10T181614.201.json
+
+###
+
+POST http://localhost:8042/api/v1/users
+Content-Type: application/json
+Content-Length: 84
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "id": 1,
+  "username": "Olzhas",
+  "email": "asda@gmail.com",
+  "role": "USER"
+}
+
+<> 2024-06-10T181606.201.json
+
+###
+
+POST http://localhost:8042/api/v1/users
+Content-Type: application/json
+Content-Length: 85
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "id": 1,
+  "username": "Olzhas",
+  "email": "asdas@gmail.com",
+  "role": "USER"
+}
+
+###
+
+POST http://localhost:8042/api/v1/users
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-06-10T171419.400.json
+
+###
+
+GET http://localhost:8042/api/v1/users/email/asdas@gmail.com
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> f.txt
+
+###
+
+GET http://localhost:8042/api/v1/users/1
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 64
+
+{
+  "id": 0,
+  "username": "",
+  "email": "",
+  "role": "USER"
+}
+
+<> 2024-05-10T205950.200.json
+
+###
+
+POST http://localhost:8042/api/v1/users
+Content-Type: application/json
+Content-Length: 85
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "id": 1,
+  "username": "Olzhas",
+  "email": "asdas@gmail.com",
+  "role": "USER"
+}
+
+###
+
+POST http://localhost:8042/api/v1/users
+Content-Type: application/json
+Content-Length: 85
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "id": 1,
+  "username": "Olzhas",
+  "email": "asdas@gmail.com",
+  "role": "USER"
+}
+
+###
+
+POST http://localhost:8042/api/v1/users
+Content-Type: application/json
+Content-Length: 85
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "id": 1,
+  "username": "Olzhas",
+  "email": "asdas@gmail.com",
+  "role": "USER"
+}
+
+###
+
+PATCH http://localhost:8042/api/v1/users/1
+Content-Type: application/json
+Content-Length: 59
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "username": "123",
+  "email": "123",
+  "role": "USER"
+}
+
+###
+
+GET http://localhost:8042/api/v1/users/1
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 64
+
+{
+  "id": 0,
+  "username": "",
+  "email": "",
+  "role": "USER"
+}
+
+<> 2024-05-03T032352.200.json
+
+###
+
+GET http://localhost:8042/api/v1/users
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-05-03T032338.200.json
+
+###
+
+POST http://localhost:8042/api/v1/users
+Content-Type: application/json
+Content-Length: 75
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "username": "Elzhas",
+  "email": "Elzhas@gmail.com",
+  "role": "USER"
+}
+
+###
+
+POST http://localhost:8042/api/v1/users
+Content-Type: application/json
+Content-Length: 74
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "username": "Olzas",
+  "email": "olzhas@gmail.com",
+  "role": "USER"
+}
+
+###
+
+POST http://localhost:8042/api/v1/student
+Content-Type: application/json
+Content-Length: 76
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "Elzhas",
+  "email": "elzhas@gmail.com",
+  "dob": "2006-01-06"
+}
+
+<> 2024-05-03T032212.404.json
+
+###
+
+GET http://localhost:8042/api/v1/users/2
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-05-03T031020.500.json
+
+###
+
+GET http://localhost:8042/api/v1/users/1
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-05-03T030926.200.json
+
+###
+
+POST http://localhost:8042/api/v1/users
+Content-Type: application/json
+Content-Length: 74
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "username": "Olzas",
+  "email": "olzhas@gmail.com",
+  "role": "USER"
+}
+
+###
+
+POST http://localhost:8042/api/v1/users
+Content-Type: application/json
+Content-Length: 74
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "username": "Olzas",
+  "email": "olzhas@gmail.com",
+  "role": "USER"
+}
+
+###
+
+POST http://localhost:8042/api/v1/users
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-05-01T053814.400.json
+
+###
+
+POST http://localhost:8042/api/v1/users
+Content-Type: application/json
+Content-Length: 74
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "username": "Olzas",
+  "email": "olzhas@gmail.com",
+  "role": "USER"
+}
+
+###
+
+POST http://localhost:8042/api/v1/users
+Content-Type: application/json
+Content-Length: 75
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "username": "Elzhas",
+  "email": "elzhas@gmail.com",
+  "role": "USER"
+}
+
+<> 2024-05-01T045113.500.json
+
+###
+
+POST http://localhost:8042/api/v1/users
+Content-Type: application/json
+Content-Length: 75
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "username": "Olzhas",
+  "email": "elzhas@gmail.com",
+  "role": "USER"
+}
+
+###
+
+POST http://localhost:8042/api/v1/users
+Content-Type: application/json
+Content-Length: 75
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "username": "Olzhas",
+  "email": "elzhas@gmail.com",
+  "role": "USER"
+}
+
+###
+
+POST http://localhost:8042/api/v1/users
+Content-Type: application/json
+Content-Length: 75
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "username": "Olzhas",
+  "email": "elzhas@gmail.com",
+  "role": "USER"
+}
+
+###
+
+POST http://localhost:8042/api/v1/users
+Content-Type: application/json
+Content-Length: 75
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "username": "Olzhas",
+  "email": "elzhas@gmail.com",
+  "role": "USER"
+}
+
+<> 2024-05-01T044743.500.json
+
+###
+
+POST http://localhost:8042/api/v1/users
+Content-Type: application/json
+Content-Length: 75
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "username": "Olzhas",
+  "email": "elzhas@gmail.com",
+  "role": "USER"
+}
+
+<> 2024-05-01T044719.500.json
+
+###
+
+POST http://localhost:8042/api/v1/users
+Content-Type: application/json
+Content-Length: 75
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "username": "Olzhas",
+  "email": "elzhas@gmail.com",
+  "role": "USER"
+}
+
+<> 2024-05-01T044622.500.json
+
+###
+
+POST http://localhost:8042/api/v1/users
+Content-Type: application/json
+Content-Length: 86
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "id": 0,
+  "username": "Olzhas",
+  "email": "elzhas@gmail.com",
+  "role": "USER"
+}
+
+<> 2024-05-01T044611.500.json
+
+###
+
+POST http://localhost:8042/api/v1/users
+Content-Type: application/json
+Content-Length: 86
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "id": 0,
+  "username": "Olzhas",
+  "email": "elzhas@gmail.com",
+  "role": "USER"
+}
+
+<> 2024-05-01T044543.500.json
+
+###
+
+POST http://localhost:8042/api/v1/users
+Content-Type: application/json
+Content-Length: 76
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "Elzhas",
+  "email": "elzhas@gmail.com",
+  "dob": "2006-01-06"
+}
+
+<> 2024-05-01T044524.500.json
+
+###
+
+POST http://localhost:8042/api/v1/users
+Content-Type: application/json
+Content-Length: 64
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "id": 0,
+  "username": "",
+  "email": "",
+  "role": "USER"
+}
+
+<> 2024-05-01T044510.500.json
+
+###
+
