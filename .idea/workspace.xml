@@ -22,7 +22,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/javapost" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RESET_MODE" value="MIXED" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -87,7 +87,7 @@
     "Spring Boot.JavapostsApplication.executor": "Run",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/user/Documents/java_project/javaposts",
@@ -200,7 +200,7 @@
       <workItem from="1718387800345" duration="12000" />
       <workItem from="1718388242090" duration="209000" />
       <workItem from="1718388469299" duration="9000" />
-      <workItem from="1718388488188" duration="15000" />
+      <workItem from="1718388488188" duration="902000" />
     </task>
     <task id="LOCAL-00001" summary="Создание и настройка проекта">
       <option name="closed" value="true" />
@@ -298,7 +298,23 @@
       <option name="project" value="LOCAL" />
       <updated>1718388313578</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Start">
+      <option name="closed" value="true" />
+      <created>1718388564948</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1718388564948</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Start">
+      <option name="closed" value="true" />
+      <created>1718388654471</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1718388654471</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
