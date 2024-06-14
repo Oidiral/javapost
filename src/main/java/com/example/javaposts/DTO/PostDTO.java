@@ -7,10 +7,9 @@ import lombok.Setter;
 
 @Getter
 @Setter
-public record PostDTO(
-        long id,
-        String title,
-        String content,
-        User author
-) {
+public class PostDTO{
+    long id;
+    String title;
+    String content;
+    User author;
 }
