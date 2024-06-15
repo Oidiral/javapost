@@ -1,6 +1,0 @@
-{
-  "id": 1,
-  "username": "Olzhas",
-  "email": "asdas@gmail.com",
-  "role": "USER"
-}

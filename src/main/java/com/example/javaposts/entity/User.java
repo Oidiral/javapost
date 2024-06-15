@@ -7,11 +7,9 @@ import lombok.*;
 @AllArgsConstructor
 @Entity
 @Table(name = "users")
-@Builder
 @Getter
 @Setter
-public class User {
-
+public class User{
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
@@ -19,8 +17,8 @@ public class User {
     private String username;
     @Column(name = "email", unique = true, nullable = false)
     private String email;
-    @Column(name = "password", nullable = false)
+    @Column(name = "password")
     private String password;
     @Enumerated(EnumType.STRING)
-    Role role;
+    Role role = Role.USER;
 }

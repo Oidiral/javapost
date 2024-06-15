@@ -1,17 +1,16 @@
 package com.example.javaposts.controller;
 
 import com.example.javaposts.DTO.UserDTO;
-import com.example.javaposts.entity.User;
 import com.example.javaposts.service.UserService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
+import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
-import java.util.Optional;
 
 @RestController
-@RequestMapping(path = "/api/v1/users")
+@RequestMapping(path = "/users")
 @RequiredArgsConstructor
 public class UserController {
 
@@ -22,22 +21,21 @@ public class UserController {
         return userService.findAll();
     }
 
-    @GetMapping("/{userId}")
-    @ResponseStatus(HttpStatus.OK)
-    public Optional<UserDTO> getUserById(@PathVariable Long userId) {
-        return userService.findById(userId);
+    @GetMapping("/username/{username}")
+    public UserDTO getUser(@PathVariable String username) {
+        return userService.findByUsername(username);
     }
 
-    @GetMapping("/email")
+    @GetMapping("/{userId}")
     @ResponseStatus(HttpStatus.OK)
-    public Optional<UserDTO> getUserByEmail(@RequestParam String email) {
-        return userService.findByEmail(email);
+    public UserDTO getUserById(@PathVariable Long userId) {
+        return userService.findById(userId);
     }
 
     @PostMapping
     @ResponseStatus(HttpStatus.CREATED)
-    public UserDTO addUser(@RequestBody UserDTO user) {
-        return userService.createUser(user);
+    public UserDTO createUser(@RequestBody UserDTO userDTO) {
+        return userService.createUser(userDTO);
     }
 
     @DeleteMapping("/{userId}")

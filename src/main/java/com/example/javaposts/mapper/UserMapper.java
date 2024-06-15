@@ -3,6 +3,8 @@ package com.example.javaposts.mapper;
 import com.example.javaposts.DTO.UserDTO;
 import com.example.javaposts.entity.User;
 import org.mapstruct.Mapper;
+import org.mapstruct.MappingConstants;
+import org.springframework.stereotype.Component;
 
 import java.util.List;
 

@@ -7,43 +7,43 @@ import com.example.javaposts.mapper.UserMapper;
 import com.example.javaposts.repository.UserRepository;
 import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
-import java.util.Optional;
 
 @Service
 @RequiredArgsConstructor
 public class UserServiceImp implements UserService {
 
+    private static final Logger log = LoggerFactory.getLogger(UserServiceImp.class);
     private final UserRepository userRepository;
     private final UserMapper userMapper;
 
     @Transactional
     @Override
     public UserDTO createUser(UserDTO userDTO) {
-        User user = userMapper.toUser(userDTO);
-        User savedUser = userRepository.save(user);
-        return userMapper.toUserDTO(savedUser);
+        return userMapper.toUserDTO(userRepository.save(userMapper.toUser(userDTO)));
     }
 
-    @Transactional
     @Override
-    public Optional<UserDTO> findById(Long id) {
-        Optional<User> optionalUser = userRepository.findById(id);
-        return optionalUser.map(userMapper::toUserDTO)
-                .map(Optional::of)
-                .orElseThrow(() -> new NotFoundException("User not found"));
+    public UserDTO findById(Long id) {
+        return userRepository.findById(id)
+                .map(userMapper::toUserDTO)
+                .orElseThrow(() -> new NotFoundException("User not found with id: " + id));
     }
 
 
     @Transactional
     @Override
     public void deleteById(Long id) {
+        if (!userRepository.existsById(id)) {
+            throw new NotFoundException("User not found with id: " + id);
+        }
         userRepository.deleteById(id);
     }
 
-    @Transactional
     @Override
     public List<UserDTO> findAll() {
         return userMapper.toUserDTOList(userRepository.findAll());
@@ -61,18 +61,10 @@ public class UserServiceImp implements UserService {
         }
     }
 
-    @Transactional
     @Override
-    public Optional<UserDTO> findByEmail(String email) {
-        Optional<User> optionalUser = userRepository.findByEmail(email);
-        return optionalUser.map(userMapper::toUserDTO)
-                .map(Optional::of)
-                .orElseThrow(() -> new NotFoundException("User not found"));
-    }
-
-    @Transactional
-    @Override
-    public Optional<User> findByUsername(String username) {
-        return userRepository.findByUsername(username);
+    public UserDTO findByUsername(String username) {
+        return userRepository.findByUsername(username)
+                .map(userMapper::toUserDTO)
+                .orElseThrow(() -> new NotFoundException("User not found with username: " + username));
     }
 }
