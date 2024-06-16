@@ -1,0 +1,522 @@
+POST http://localhost:8042/users
+Content-Type: application/json
+Content-Length: 75
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "username": "sad",
+  "email": "awd@gmail.com",
+  "password": "qwe123"
+}
+
+<> 2024-06-16T194348.200.json
+
+###
+
+POST http://localhost:8042/users
+Content-Type: application/json
+Content-Length: 75
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "username": "sad",
+  "email": "awd@gmail.com",
+  "password": "qwe123"
+}
+
+<> 2024-06-16T194254.200.json
+
+###
+
+POST http://localhost:8042/users
+Content-Type: application/json
+Content-Length: 91
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "id": 0,
+  "username": "asdsa",
+  "email": "awd@gmail.com",
+  "password": "213123asd"
+}
+
+<> 2024-06-16T194103.200.json
+
+###
+
+POST http://localhost:8042/users
+Content-Type: application/json
+Content-Length: 75
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "username": "sad",
+  "email": "awd@gmail.com",
+  "password": "qwe123"
+}
+
+<> 2024-06-16T192353.200.json
+
+###
+
+POST http://localhost:8042/users
+Content-Type: application/json
+Content-Length: 91
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "id": 0,
+  "username": "asdsa",
+  "email": "awd@gmail.com",
+  "password": "213123asd"
+}
+
+<> 2024-06-16T191554.200.json
+
+###
+
+POST http://localhost:8042/users
+Content-Type: application/json
+Content-Length: 91
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "id": 0,
+  "username": "asdsa",
+  "email": "awd@gmail.com",
+  "password": "213123asd"
+}
+
+<> 2024-06-16T190825.200.json
+
+###
+
+POST http://localhost:8042/users
+Content-Type: application/json
+Content-Length: 91
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "id": 0,
+  "username": "asdsa",
+  "email": "awd@gmail.com",
+  "password": "213123asd"
+}
+
+<> 2024-06-16T190625.200.json
+
+###
+
+POST http://localhost:8042/users
+Content-Type: application/json
+Content-Length: 91
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "id": 0,
+  "username": "asdsa",
+  "email": "awd@gmail.com",
+  "password": "213123asd"
+}
+
+<> 2024-06-16T190426.200.json
+
+###
+
+POST http://localhost:8042/users
+Content-Type: application/json
+Content-Length: 91
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "id": 0,
+  "username": "asdsa",
+  "email": "awd@gmail.com",
+  "password": "213123asd"
+}
+
+<> 2024-06-16T190001.200.json
+
+###
+
+POST http://localhost:8042/users
+Content-Type: application/json
+Content-Length: 91
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "id": 0,
+  "username": "asdsa",
+  "email": "awd@gmail.com",
+  "password": "213123asd"
+}
+
+<> 2024-06-16T185622.200.json
+
+###
+
+POST http://localhost:8042/users
+Content-Type: application/json
+Content-Length: 91
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "id": 0,
+  "username": "asdsa",
+  "email": "awd@gmail.com",
+  "password": "213123asd"
+}
+
+<> 2024-06-16T184936.200.json
+
+###
+
+POST http://localhost:8042/users
+Content-Type: application/json
+Content-Length: 91
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "id": 0,
+  "username": "asdsa",
+  "email": "awd@gmail.com",
+  "password": "213123asd"
+}
+
+<> 2024-06-16T184757.200.json
+
+###
+
+POST http://localhost:8042/users
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-06-16T184734.400.json
+
+###
+
+POST http://localhost:8042/users
+Content-Type: application/json
+Content-Length: 75
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "username": "sad",
+  "email": "awd@gmail.com",
+  "password": "qwe123"
+}
+
+<> 2024-06-16T184653.200.json
+
+###
+
+POST http://localhost:8042/users/api/v1
+Content-Type: application/json
+Content-Length: 79
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "username": "olas",
+  "email": "wdaw@gmail.com",
+  "password": "qwer1234"
+}
+
+<> 2024-06-16T184650.404.json
+
+###
+
+POST http://localhost:8042/users
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-06-16T184641.400.json
+
+###
+
+POST http://localhost:8042/users
+Content-Type: application/json
+Content-Length: 75
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "username": "sad",
+  "email": "awd@gmail.com",
+  "password": "qwe123"
+}
+
+<> 2024-06-16T184328.200.json
+
+###
+
+POST http://localhost:8042/users
+Content-Type: application/json
+Content-Length: 75
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "username": "sad",
+  "email": "awd@gmail.com",
+  "password": "qwe123"
+}
+
+<> 2024-06-16T183535.200.json
+
+###
+
+POST http://localhost:8042/users
+Content-Type: application/json
+Content-Length: 75
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "username": "sad",
+  "email": "awd@gmail.com",
+  "password": "qwe123"
+}
+
+<> 2024-06-16T183349.200.json
+
+###
+
+POST http://localhost:8042/users
+Content-Type: application/json
+Content-Length: 75
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "username": "sad",
+  "email": "awd@gmail.com",
+  "password": "qwe123"
+}
+
+<> 2024-06-16T182919.200.json
+
+###
+
+POST http://localhost:8042/users
+Content-Type: application/json
+Content-Length: 75
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "username": "sad",
+  "email": "awd@gmail.com",
+  "password": "qwe123"
+}
+
+<> 2024-06-16T182647.201.json
+
+###
+
+POST http://localhost:8042/users
+Content-Type: application/json
+Content-Length: 75
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "username": "sad",
+  "email": "awd@gmail.com",
+  "password": "qwe123"
+}
+
+<> 2024-06-16T182423.201.json
+
+###
+
+POST http://localhost:8042/users
+Content-Type: application/json
+Content-Length: 75
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "username": "sad",
+  "email": "awd@gmail.com",
+  "password": "qwe123"
+}
+
+<> 2024-06-16T182331.500.json
+
+###
+
+POST http://localhost:8042/users
+Content-Type: application/json
+Content-Length: 75
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "username": "sad",
+  "email": "awd@gmail.com",
+  "password": "qwe123"
+}
+
+<> 2024-06-16T182325.500.json
+
+###
+
+POST http://localhost:8042/users
+Content-Type: application/json
+Content-Length: 75
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "username": "sad",
+  "email": "awd@gmail.com",
+  "password": "qwe123"
+}
+
+<> 2024-06-16T182223.201.json
+
+###
+
+POST http://localhost:8042/users
+Content-Type: application/json
+Content-Length: 75
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "username": "sad",
+  "email": "awd@gmail.com",
+  "password": "qwe123"
+}
+
+<> 2024-06-16T182220.201.json
+
+###
+
+POST http://localhost:8042/users
+Content-Type: application/json
+Content-Length: 75
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "username": "sad",
+  "email": "awd@gmail.com",
+  "password": "qwe123"
+}
+
+<> 2024-06-16T182215.201.json
+
+###
+
+POST http://localhost:8042/users
+Content-Type: application/json
+Content-Length: 75
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "username": "sad",
+  "email": "awd@gmail.com",
+  "password": "qwe123"
+}
+
+<> 2024-06-16T181148.201.json
+
+###
+
+POST http://localhost:8042/users
+Content-Type: application/json
+Content-Length: 75
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "username": "sad",
+  "email": "awd@gmail.com",
+  "password": "qwe123"
+}
+
+<> 2024-06-16T180901.500.json
+
+###
+
+POST http://localhost:8042/users
+Content-Type: application/json
+Content-Length: 75
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "username": "sad",
+  "email": "awd@gmail.com",
+  "password": "qwe123"
+}
+
+<> 2024-06-16T180426.500.json
+
+###
+
+POST http://localhost:8042/api/v1/users
+Content-Type: application/json
+Content-Length: 79
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "username": "olzhas",
+  "email": "asdw@gmail.coim",
+  "password": "asdaw"
+}
+
+<> 2024-06-16T180421.404.json
+
+###
+

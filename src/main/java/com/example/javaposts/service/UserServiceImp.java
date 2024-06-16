@@ -17,7 +17,8 @@ import java.util.List;
 @RequiredArgsConstructor
 public class UserServiceImp implements UserService {
 
-    private static final Logger log = LoggerFactory.getLogger(UserServiceImp.class);
+    private static final Logger logger = LoggerFactory.getLogger(UserServiceImp.class);
+
     private final UserRepository userRepository;
     private final UserMapper userMapper;
 
@@ -33,7 +34,6 @@ public class UserServiceImp implements UserService {
                 .map(userMapper::toUserDTO)
                 .orElseThrow(() -> new NotFoundException("User not found with id: " + id));
     }
-
 
     @Transactional
     @Override

@@ -4,11 +4,12 @@ import jakarta.persistence.*;
 import lombok.*;
 
 @NoArgsConstructor
-@AllArgsConstructor
 @Entity
 @Table(name = "users")
 @Getter
 @Setter
+@ToString
+@AllArgsConstructor
 public class User{
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -20,5 +21,6 @@ public class User{
     @Column(name = "password")
     private String password;
     @Enumerated(EnumType.STRING)
+    @JoinColumn(name = "role")
     Role role = Role.USER;
 }
